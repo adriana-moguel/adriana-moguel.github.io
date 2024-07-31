@@ -1,0 +1,49 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+header{
+    background-color: #B692C2;
+}
+header span{
+    color:white;
+}
+.nav-item a{
+    color: white;
+}
+.nav-item a:visited{
+    color: white;
+}
+.nav-item a:hover{
+    color: black;
+}
+
+#nav-button {
+    background-color: #694F8E;
+}
+.bi{
+    color:#E3A5C7;
+    font-size: 32px;
+}
+.img-proyec1 {
+     background-image: url('assets/ss_clonP.jpeg');
+     background-size: cover; /* Ajusta el tamaño de la imagen para cubrir el contenedor */
+    background-repeat: no-repeat;
+    position: relative; /* Necesario para colocar el pseudo-elemento */
+    }
+    .img-proyec1::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.185);
+    pointer-events: none;
+    } 
+    .img-proyec1 .d-flex.flex-column {
+    position: relative;
+    z-index: 2;
+    }
+    .img-proyec1 .d-flex.flex-column {
+        position: relative;
+         z-index: 2;
+        }

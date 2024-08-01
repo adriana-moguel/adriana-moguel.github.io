@@ -61,7 +61,14 @@ header span {
 }
 footer{
     background-color: #FFDFD6;
+    margin: 0;
+    padding: 10px 0;
+    
 }
 footer p a{
     color: black;
+}
+#app{
+    color: #694F8E;
+    font-size: 30px;
 }
